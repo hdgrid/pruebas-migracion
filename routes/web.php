@@ -21,7 +21,7 @@ Route::get('/greeting', function () {
 	return 'Hello World';
 });	
 
-//al usar arreglos es clase metodo
+//al usar arreglos es clase metodo.
 //Route::get('/product', [ProductController::class, 'index']); //clase/controlador productcontroller, metodo index.
 
 //GET te lleva al index, POST te llevaria al create
